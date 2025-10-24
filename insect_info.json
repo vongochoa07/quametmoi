@@ -1,0 +1,931 @@
+{
+  "dataset_info": {
+    "name": "IP102 Insect Pest Recognition Dataset",
+    "version": "1.0.0",
+    "description": "Dataset gồm 102 loài côn trùng gây hại phổ biến ở Việt Nam",
+    "total_classes": 102,
+    "created_at": "2025-10-23T12:49:43.063949",
+    "language": "Vietnamese",
+    "country": "Vietnam"
+  },
+  "insects": {
+    "IP001": {
+      "vietnamese_name": "Sâu đục thân lúa",
+      "scientific_name": "Dermaptera sp.",
+      "danger_level": "Thấp",
+      "affected_crops": "Lạc",
+      "habitat": "Đất",
+      "prevention": "Luân canh cây trồng, Vệ sinh đồng ruộng, Loại bỏ cỏ dại",
+      "treatment": "Xà phòng diệt côn trùng, Thuốc trừ sâu hóa học"
+    },
+    "IP002": {
+      "vietnamese_name": "Rầy nâu",
+      "scientific_name": "Plecoptera sp.",
+      "danger_level": "Thấp",
+      "affected_crops": "Cải bẹ, Rau muống",
+      "habitat": "Lá khô",
+      "prevention": "Luân canh cây trồng, Sử dụng thiên địch",
+      "treatment": "Xà phòng diệt côn trùng, Thiên địch, Thuốc trừ sâu hóa học, Sử dụng thuốc chuyên dụng"
+    },
+    "IP003": {
+      "vietnamese_name": "Rầy xanh",
+      "scientific_name": "Phthiraptera sp.",
+      "danger_level": "Cao",
+      "affected_crops": "Khoai tây, Cải bẹ, Cao su",
+      "habitat": "Lá cây",
+      "prevention": "Tưới nước đúng cách, Luân canh cây trồng",
+      "treatment": "Sử dụng thuốc chuyên dụng, Xử lý hạt giống, Kết hợp nhiều biện pháp"
+    },
+    "IP004": {
+      "vietnamese_name": "Sâu cuốn lá lúa",
+      "scientific_name": "Phasmatodea sp.",
+      "danger_level": "Thấp",
+      "affected_crops": "Cà phê",
+      "habitat": "Cỏ dại",
+      "prevention": "Loại bỏ cỏ dại, Sử dụng thiên địch",
+      "treatment": "Thuốc trừ sâu sinh học, Thiên địch, Dầu neem, Phun thuốc định kỳ"
+    },
+    "IP005": {
+      "vietnamese_name": "Bọ xít hại lúa",
+      "scientific_name": "Mantodea sp.",
+      "danger_level": "Rất cao",
+      "affected_crops": "Sầu riêng, Xoài",
+      "habitat": "Cỏ dại",
+      "prevention": "Trồng xen canh, Sử dụng giống kháng",
+      "treatment": "Sử dụng thuốc chuyên dụng, Kết hợp nhiều biện pháp, Xử lý hạt giống, Thuốc trừ sâu sinh học"
+    },
+    "IP006": {
+      "vietnamese_name": "Sâu keo",
+      "scientific_name": "Lepidoptera sp.",
+      "danger_level": "Cao",
+      "affected_crops": "Xoài",
+      "habitat": "Gỗ",
+      "prevention": "Tưới nước đúng cách, Quản lý nước hợp lý, Sử dụng bẫy pheromone",
+      "treatment": "Bẫy côn trùng, Phun thuốc khi cần thiết"
+    },
+    "IP007": {
+      "vietnamese_name": "Sâu đục bẹ lúa",
+      "scientific_name": "Blattodea sp.",
+      "danger_level": "Cao",
+      "affected_crops": "Mía, Chanh, Cải bẹ",
+      "habitat": "Phân động vật",
+      "prevention": "Vệ sinh đồng ruộng, Tưới nước đúng cách",
+      "treatment": "Thuốc trừ sâu sinh học, Phun thuốc khi cần thiết"
+    },
+    "IP008": {
+      "vietnamese_name": "Sâu đục hạt lúa",
+      "scientific_name": "Hemiptera sp.",
+      "danger_level": "Thấp",
+      "affected_crops": "Bưởi, Nhãn",
+      "habitat": "Nước",
+      "prevention": "Loại bỏ cỏ dại, Vệ sinh đồng ruộng",
+      "treatment": "Kết hợp nhiều biện pháp, Xử lý hạt giống"
+    },
+    "IP009": {
+      "vietnamese_name": "Bọ rầy lúa",
+      "scientific_name": "Plecoptera sp.",
+      "danger_level": "Trung bình",
+      "affected_crops": "Bắp cải, Bông, Ớt",
+      "habitat": "Quả",
+      "prevention": "Cắt tỉa cành, Sử dụng bẫy pheromone, Vệ sinh đồng ruộng",
+      "treatment": "Kết hợp nhiều biện pháp, Thiên địch"
+    },
+    "IP010": {
+      "vietnamese_name": "Sâu đục rễ lúa",
+      "scientific_name": "Hymenoptera sp.",
+      "danger_level": "Thấp",
+      "affected_crops": "Chôm chôm",
+      "habitat": "Quả",
+      "prevention": "Quản lý nước hợp lý, Luân canh cây trồng, Cắt tỉa cành",
+      "treatment": "Xử lý hạt giống, Thiên địch, Bẫy côn trùng"
+    },
+    "IP011": {
+      "vietnamese_name": "Sâu đục thân ngô",
+      "scientific_name": "Blattodea sp.",
+      "danger_level": "Rất cao",
+      "affected_crops": "Dưa, Vải",
+      "habitat": "Lá khô",
+      "prevention": "Luân canh cây trồng, Cắt tỉa cành, Trồng xen canh",
+      "treatment": "Xà phòng diệt côn trùng, Phun thuốc khi cần thiết, Xử lý hạt giống"
+    },
+    "IP012": {
+      "vietnamese_name": "Sâu keo mùa thu",
+      "scientific_name": "Thysanoptera sp.",
+      "danger_level": "Trung bình",
+      "affected_crops": "Ổi",
+      "habitat": "Gỗ",
+      "prevention": "Vệ sinh đồng ruộng, Bón phân cân đối, Tưới nước đúng cách",
+      "treatment": "Bẫy côn trùng, Xử lý hạt giống, Phun thuốc khi cần thiết, Thiên địch"
+    },
+    "IP013": {
+      "vietnamese_name": "Sâu đục bắp ngô",
+      "scientific_name": "Mantodea sp.",
+      "danger_level": "Cao",
+      "affected_crops": "Dưa, Cải bẹ",
+      "habitat": "Cỏ dại",
+      "prevention": "Sử dụng bẫy pheromone, Trồng xen canh, Loại bỏ cỏ dại, Bón phân cân đối",
+      "treatment": "Thiên địch, Bẫy côn trùng"
+    },
+    "IP014": {
+      "vietnamese_name": "Bọ hung hại ngô",
+      "scientific_name": "Isoptera sp.",
+      "danger_level": "Cao",
+      "affected_crops": "Cam, Dưa, Bí",
+      "habitat": "Gỗ",
+      "prevention": "Sử dụng bẫy pheromone, Tưới nước đúng cách, Luân canh cây trồng",
+      "treatment": "Sử dụng thuốc chuyên dụng, Thuốc trừ sâu sinh học, Thuốc trừ sâu hóa học"
+    },
+    "IP015": {
+      "vietnamese_name": "Sâu xám hại ngô",
+      "scientific_name": "Ephemeroptera sp.",
+      "danger_level": "Trung bình",
+      "affected_crops": "Chôm chôm, Cải bẹ, Lúa",
+      "habitat": "Thức ăn thừa",
+      "prevention": "Vệ sinh đồng ruộng, Quản lý nước hợp lý, Cắt tỉa cành",
+      "treatment": "Dầu neem, Xử lý hạt giống, Bẫy côn trùng"
+    },
+    "IP016": {
+      "vietnamese_name": "Sâu đục lá ngô",
+      "scientific_name": "Coleoptera sp.",
+      "danger_level": "Trung bình",
+      "affected_crops": "Cao su",
+      "habitat": "Cây chết",
+      "prevention": "Trồng xen canh, Loại bỏ cỏ dại, Bón phân cân đối",
+      "treatment": "Bẫy côn trùng, Thuốc trừ sâu hóa học"
+    },
+    "IP017": {
+      "vietnamese_name": "Bọ cánh cứng ngô",
+      "scientific_name": "Siphonaptera sp.",
+      "danger_level": "Cao",
+      "affected_crops": "Ngô, Sắn",
+      "habitat": "Quả",
+      "prevention": "Kiểm tra thường xuyên, Tưới nước đúng cách",
+      "treatment": "Kết hợp nhiều biện pháp, Xử lý hạt giống"
+    },
+    "IP018": {
+      "vietnamese_name": "Sâu đục rễ ngô",
+      "scientific_name": "Psocoptera sp.",
+      "danger_level": "Rất cao",
+      "affected_crops": "Ngô",
+      "habitat": "Thân cây",
+      "prevention": "Tưới nước đúng cách, Bón phân cân đối, Cắt tỉa cành",
+      "treatment": "Phun thuốc khi cần thiết, Thuốc trừ sâu sinh học, Kết hợp nhiều biện pháp"
+    },
+    "IP019": {
+      "vietnamese_name": "Sâu đục hạt ngô",
+      "scientific_name": "Plecoptera sp.",
+      "danger_level": "Thấp",
+      "affected_crops": "Đậu, Rau muống, Bưởi",
+      "habitat": "Lá cây",
+      "prevention": "Sử dụng thiên địch, Cắt tỉa cành, Sử dụng bẫy pheromone, Quản lý nước hợp lý",
+      "treatment": "Phun thuốc định kỳ, Phun thuốc khi cần thiết, Thuốc trừ sâu hóa học, Sử dụng thuốc chuyên dụng"
+    },
+    "IP020": {
+      "vietnamese_name": "Sâu đục thân ngô châu Á",
+      "scientific_name": "Siphonaptera sp.",
+      "danger_level": "Thấp",
+      "affected_crops": "Cao su, Đậu, Ớt",
+      "habitat": "Cỏ dại",
+      "prevention": "Luân canh cây trồng, Cắt tỉa cành, Sử dụng giống kháng",
+      "treatment": "Phun thuốc định kỳ, Bẫy côn trùng, Thuốc trừ sâu hóa học, Xử lý hạt giống"
+    },
+    "IP021": {
+      "vietnamese_name": "Sâu tơ",
+      "scientific_name": "Plecoptera sp.",
+      "danger_level": "Trung bình",
+      "affected_crops": "Cải bẹ",
+      "habitat": "Gỗ",
+      "prevention": "Kiểm tra thường xuyên, Sử dụng thiên địch",
+      "treatment": "Kết hợp nhiều biện pháp, Phun thuốc khi cần thiết, Sử dụng thuốc chuyên dụng, Phun thuốc định kỳ"
+    },
+    "IP022": {
+      "vietnamese_name": "Sâu xanh",
+      "scientific_name": "Mantodea sp.",
+      "danger_level": "Trung bình",
+      "affected_crops": "Mía, Lạc, Xoài",
+      "habitat": "Cỏ dại",
+      "prevention": "Quản lý nước hợp lý, Bón phân cân đối, Vệ sinh đồng ruộng",
+      "treatment": "Phun thuốc định kỳ, Bẫy côn trùng, Xử lý hạt giống"
+    },
+    "IP023": {
+      "vietnamese_name": "Sâu khoang",
+      "scientific_name": "Hemiptera sp.",
+      "danger_level": "Thấp",
+      "affected_crops": "Nhãn, Bắp cải, Vải",
+      "habitat": "Thân cây",
+      "prevention": "Trồng xen canh, Sử dụng thiên địch",
+      "treatment": "Bẫy côn trùng, Xử lý hạt giống"
+    },
+    "IP024": {
+      "vietnamese_name": "Bọ xít hại rau",
+      "scientific_name": "Ephemeroptera sp.",
+      "danger_level": "Rất cao",
+      "affected_crops": "Chôm chôm",
+      "habitat": "Lá cây",
+      "prevention": "Sử dụng thiên địch, Quản lý nước hợp lý, Trồng xen canh",
+      "treatment": "Dầu neem, Thiên địch, Sử dụng thuốc chuyên dụng"
+    },
+    "IP025": {
+      "vietnamese_name": "Rệp hại rau",
+      "scientific_name": "Ephemeroptera sp.",
+      "danger_level": "Cao",
+      "affected_crops": "Dừa, Đậu",
+      "habitat": "Không khí",
+      "prevention": "Bón phân cân đối, Sử dụng thiên địch, Quản lý nước hợp lý",
+      "treatment": "Kết hợp nhiều biện pháp, Xử lý hạt giống, Thuốc trừ sâu sinh học"
+    },
+    "IP026": {
+      "vietnamese_name": "Sâu đục quả cà chua",
+      "scientific_name": "Mecoptera sp.",
+      "danger_level": "Rất cao",
+      "affected_crops": "Bắp cải",
+      "habitat": "Cỏ dại",
+      "prevention": "Loại bỏ cỏ dại, Luân canh cây trồng, Sử dụng giống kháng, Sử dụng thiên địch",
+      "treatment": "Thuốc trừ sâu hóa học, Phun thuốc định kỳ, Kết hợp nhiều biện pháp"
+    },
+    "IP027": {
+      "vietnamese_name": "Sâu đục quả ớt",
+      "scientific_name": "Plecoptera sp.",
+      "danger_level": "Thấp",
+      "affected_crops": "Vải",
+      "habitat": "Rễ cây",
+      "prevention": "Vệ sinh đồng ruộng, Bón phân cân đối",
+      "treatment": "Thuốc trừ sâu sinh học, Phun thuốc khi cần thiết"
+    },
+    "IP028": {
+      "vietnamese_name": "Sâu đục quả dưa",
+      "scientific_name": "Mecoptera sp.",
+      "danger_level": "Thấp",
+      "affected_crops": "Chôm chôm",
+      "habitat": "Lá khô",
+      "prevention": "Sử dụng bẫy pheromone, Sử dụng giống kháng",
+      "treatment": "Thuốc trừ sâu sinh học, Bẫy côn trùng, Phun thuốc định kỳ"
+    },
+    "IP029": {
+      "vietnamese_name": "Sâu đục quả bí",
+      "scientific_name": "Ephemeroptera sp.",
+      "danger_level": "Trung bình",
+      "affected_crops": "Rau muống, Cà chua, Vải",
+      "habitat": "Thân cây",
+      "prevention": "Bón phân cân đối, Sử dụng thiên địch, Vệ sinh đồng ruộng, Sử dụng giống kháng",
+      "treatment": "Thiên địch, Kết hợp nhiều biện pháp, Sử dụng thuốc chuyên dụng, Thuốc trừ sâu sinh học"
+    },
+    "IP030": {
+      "vietnamese_name": "Sâu đục quả đậu",
+      "scientific_name": "Phthiraptera sp.",
+      "danger_level": "Thấp",
+      "affected_crops": "Khoai tây, Lúa, Ổi",
+      "habitat": "Quả",
+      "prevention": "Kiểm tra thường xuyên, Sử dụng giống kháng",
+      "treatment": "Phun thuốc định kỳ, Thiên địch"
+    },
+    "IP031": {
+      "vietnamese_name": "Sâu đục quả cam",
+      "scientific_name": "Phthiraptera sp.",
+      "danger_level": "Rất cao",
+      "affected_crops": "Đậu tương, Khoai lang",
+      "habitat": "Lá cây",
+      "prevention": "Tưới nước đúng cách, Cắt tỉa cành, Loại bỏ cỏ dại, Bón phân cân đối",
+      "treatment": "Kết hợp nhiều biện pháp, Bẫy côn trùng"
+    },
+    "IP032": {
+      "vietnamese_name": "Sâu đục quả chanh",
+      "scientific_name": "Plecoptera sp.",
+      "danger_level": "Cao",
+      "affected_crops": "Đậu tương, Ớt",
+      "habitat": "Thân cây",
+      "prevention": "Bón phân cân đối, Kiểm tra thường xuyên, Sử dụng thiên địch",
+      "treatment": "Xà phòng diệt côn trùng, Phun thuốc khi cần thiết, Sử dụng thuốc chuyên dụng"
+    },
+    "IP033": {
+      "vietnamese_name": "Sâu đục quả bưởi",
+      "scientific_name": "Mantodea sp.",
+      "danger_level": "Rất cao",
+      "affected_crops": "Dưa",
+      "habitat": "Cây chết",
+      "prevention": "Sử dụng bẫy pheromone, Tưới nước đúng cách, Vệ sinh đồng ruộng, Bón phân cân đối",
+      "treatment": "Thiên địch, Xử lý hạt giống"
+    },
+    "IP034": {
+      "vietnamese_name": "Sâu đục quả xoài",
+      "scientific_name": "Psocoptera sp.",
+      "danger_level": "Rất cao",
+      "affected_crops": "Vải, Cà phê",
+      "habitat": "Vỏ cây",
+      "prevention": "Tưới nước đúng cách, Trồng xen canh, Luân canh cây trồng, Loại bỏ cỏ dại",
+      "treatment": "Phun thuốc khi cần thiết, Bẫy côn trùng, Thiên địch"
+    },
+    "IP035": {
+      "vietnamese_name": "Sâu đục quả nhãn",
+      "scientific_name": "Siphonaptera sp.",
+      "danger_level": "Cao",
+      "affected_crops": "Dừa, Bưởi",
+      "habitat": "Rễ cây",
+      "prevention": "Kiểm tra thường xuyên, Loại bỏ cỏ dại",
+      "treatment": "Thuốc trừ sâu hóa học, Thiên địch"
+    },
+    "IP036": {
+      "vietnamese_name": "Sâu đục quả vải",
+      "scientific_name": "Hymenoptera sp.",
+      "danger_level": "Thấp",
+      "affected_crops": "Ớt",
+      "habitat": "Gỗ",
+      "prevention": "Quản lý nước hợp lý, Bón phân cân đối, Sử dụng bẫy pheromone, Kiểm tra thường xuyên",
+      "treatment": "Phun thuốc định kỳ, Xà phòng diệt côn trùng"
+    },
+    "IP037": {
+      "vietnamese_name": "Sâu đục quả chôm chôm",
+      "scientific_name": "Neuroptera sp.",
+      "danger_level": "Thấp",
+      "affected_crops": "Bưởi",
+      "habitat": "Đất",
+      "prevention": "Vệ sinh đồng ruộng, Tưới nước đúng cách, Sử dụng bẫy pheromone, Luân canh cây trồng",
+      "treatment": "Thuốc trừ sâu hóa học, Dầu neem, Phun thuốc định kỳ"
+    },
+    "IP038": {
+      "vietnamese_name": "Sâu đục quả sầu riêng",
+      "scientific_name": "Phasmatodea sp.",
+      "danger_level": "Cao",
+      "affected_crops": "Bưởi, Dừa",
+      "habitat": "Vỏ cây",
+      "prevention": "Loại bỏ cỏ dại, Vệ sinh đồng ruộng, Sử dụng bẫy pheromone",
+      "treatment": "Thiên địch, Kết hợp nhiều biện pháp, Bẫy côn trùng"
+    },
+    "IP039": {
+      "vietnamese_name": "Sâu đục quả mít",
+      "scientific_name": "Odonata sp.",
+      "danger_level": "Rất cao",
+      "affected_crops": "Ổi",
+      "habitat": "Gỗ",
+      "prevention": "Bón phân cân đối, Sử dụng giống kháng",
+      "treatment": "Thuốc trừ sâu sinh học, Phun thuốc định kỳ"
+    },
+    "IP040": {
+      "vietnamese_name": "Sâu đục quả ổi",
+      "scientific_name": "Psocoptera sp.",
+      "danger_level": "Rất cao",
+      "affected_crops": "Rau muống, Chanh",
+      "habitat": "Lá khô",
+      "prevention": "Cắt tỉa cành, Sử dụng giống kháng, Kiểm tra thường xuyên",
+      "treatment": "Xà phòng diệt côn trùng, Thuốc trừ sâu sinh học, Dầu neem"
+    },
+    "IP041": {
+      "vietnamese_name": "Sâu đục thân cà phê",
+      "scientific_name": "Orthoptera sp.",
+      "danger_level": "Thấp",
+      "affected_crops": "Đậu",
+      "habitat": "Cỏ dại",
+      "prevention": "Trồng xen canh, Vệ sinh đồng ruộng, Sử dụng bẫy pheromone, Loại bỏ cỏ dại",
+      "treatment": "Bẫy côn trùng, Thuốc trừ sâu hóa học"
+    },
+    "IP042": {
+      "vietnamese_name": "Sâu đục quả cà phê",
+      "scientific_name": "Isoptera sp.",
+      "danger_level": "Cao",
+      "affected_crops": "Cam",
+      "habitat": "Hoa",
+      "prevention": "Bón phân cân đối, Trồng xen canh, Vệ sinh đồng ruộng, Sử dụng giống kháng",
+      "treatment": "Thuốc trừ sâu hóa học, Bẫy côn trùng"
+    },
+    "IP043": {
+      "vietnamese_name": "Sâu đục lá cà phê",
+      "scientific_name": "Orthoptera sp.",
+      "danger_level": "Trung bình",
+      "affected_crops": "Vải, Sầu riêng",
+      "habitat": "Thân cây",
+      "prevention": "Sử dụng thiên địch, Sử dụng bẫy pheromone, Kiểm tra thường xuyên",
+      "treatment": "Kết hợp nhiều biện pháp, Dầu neem, Xà phòng diệt côn trùng, Xử lý hạt giống"
+    },
+    "IP044": {
+      "vietnamese_name": "Sâu đục thân cao su",
+      "scientific_name": "Blattodea sp.",
+      "danger_level": "Rất cao",
+      "affected_crops": "Sắn, Mít",
+      "habitat": "Vỏ cây",
+      "prevention": "Tưới nước đúng cách, Kiểm tra thường xuyên, Quản lý nước hợp lý, Trồng xen canh",
+      "treatment": "Thuốc trừ sâu hóa học, Xử lý hạt giống"
+    },
+    "IP045": {
+      "vietnamese_name": "Sâu đục lá cao su",
+      "scientific_name": "Lepidoptera sp.",
+      "danger_level": "Thấp",
+      "affected_crops": "Bông",
+      "habitat": "Lá khô",
+      "prevention": "Sử dụng giống kháng, Loại bỏ cỏ dại, Cắt tỉa cành, Luân canh cây trồng",
+      "treatment": "Xà phòng diệt côn trùng, Phun thuốc khi cần thiết, Kết hợp nhiều biện pháp"
+    },
+    "IP046": {
+      "vietnamese_name": "Sâu đục thân mía",
+      "scientific_name": "Mecoptera sp.",
+      "danger_level": "Trung bình",
+      "affected_crops": "Bưởi",
+      "habitat": "Đất",
+      "prevention": "Loại bỏ cỏ dại, Sử dụng giống kháng",
+      "treatment": "Thiên địch, Xử lý hạt giống, Thuốc trừ sâu sinh học"
+    },
+    "IP047": {
+      "vietnamese_name": "Sâu đục lá mía",
+      "scientific_name": "Mecoptera sp.",
+      "danger_level": "Trung bình",
+      "affected_crops": "Sầu riêng",
+      "habitat": "Vỏ cây",
+      "prevention": "Sử dụng thiên địch, Cắt tỉa cành, Sử dụng giống kháng",
+      "treatment": "Thuốc trừ sâu sinh học, Phun thuốc định kỳ"
+    },
+    "IP048": {
+      "vietnamese_name": "Sâu đục rễ mía",
+      "scientific_name": "Psocoptera sp.",
+      "danger_level": "Trung bình",
+      "affected_crops": "Bông, Ngô, Mít",
+      "habitat": "Gỗ",
+      "prevention": "Kiểm tra thường xuyên, Loại bỏ cỏ dại",
+      "treatment": "Thiên địch, Xà phòng diệt côn trùng, Phun thuốc định kỳ, Sử dụng thuốc chuyên dụng"
+    },
+    "IP049": {
+      "vietnamese_name": "Sâu đục thân bông",
+      "scientific_name": "Isoptera sp.",
+      "danger_level": "Rất cao",
+      "affected_crops": "Đậu tương, Cải bẹ, Bí",
+      "habitat": "Cây chết",
+      "prevention": "Loại bỏ cỏ dại, Bón phân cân đối",
+      "treatment": "Xử lý hạt giống, Thuốc trừ sâu sinh học, Xà phòng diệt côn trùng"
+    },
+    "IP050": {
+      "vietnamese_name": "Sâu đục quả bông",
+      "scientific_name": "Coleoptera sp.",
+      "danger_level": "Trung bình",
+      "affected_crops": "Ổi, Bưởi, Dưa",
+      "habitat": "Lá cây",
+      "prevention": "Sử dụng thiên địch, Tưới nước đúng cách, Quản lý nước hợp lý",
+      "treatment": "Thiên địch, Phun thuốc định kỳ"
+    },
+    "IP051": {
+      "vietnamese_name": "Sâu đục thân khoai tây",
+      "scientific_name": "Psocoptera sp.",
+      "danger_level": "Cao",
+      "affected_crops": "Vải, Mía, Cam",
+      "habitat": "Cây chết",
+      "prevention": "Trồng xen canh, Sử dụng giống kháng, Cắt tỉa cành, Bón phân cân đối",
+      "treatment": "Thiên địch, Bẫy côn trùng"
+    },
+    "IP052": {
+      "vietnamese_name": "Sâu đục củ khoai tây",
+      "scientific_name": "Neuroptera sp.",
+      "danger_level": "Thấp",
+      "affected_crops": "Ớt, Cà phê",
+      "habitat": "Thân cây",
+      "prevention": "Tưới nước đúng cách, Quản lý nước hợp lý, Trồng xen canh, Cắt tỉa cành",
+      "treatment": "Bẫy côn trùng, Dầu neem, Sử dụng thuốc chuyên dụng, Xà phòng diệt côn trùng"
+    },
+    "IP053": {
+      "vietnamese_name": "Sâu đục lá khoai tây",
+      "scientific_name": "Mantodea sp.",
+      "danger_level": "Thấp",
+      "affected_crops": "Sắn, Cải bẹ",
+      "habitat": "Lá cây",
+      "prevention": "Kiểm tra thường xuyên, Quản lý nước hợp lý",
+      "treatment": "Phun thuốc định kỳ, Thuốc trừ sâu hóa học, Xà phòng diệt côn trùng, Dầu neem"
+    },
+    "IP054": {
+      "vietnamese_name": "Sâu đục thân khoai lang",
+      "scientific_name": "Blattodea sp.",
+      "danger_level": "Thấp",
+      "affected_crops": "Chanh, Ớt",
+      "habitat": "Lá cây",
+      "prevention": "Luân canh cây trồng, Trồng xen canh, Tưới nước đúng cách",
+      "treatment": "Thiên địch, Xà phòng diệt côn trùng, Thuốc trừ sâu hóa học, Xử lý hạt giống"
+    },
+    "IP055": {
+      "vietnamese_name": "Sâu đục củ khoai lang",
+      "scientific_name": "Lepidoptera sp.",
+      "danger_level": "Thấp",
+      "affected_crops": "Dừa",
+      "habitat": "Không khí",
+      "prevention": "Bón phân cân đối, Loại bỏ cỏ dại",
+      "treatment": "Phun thuốc định kỳ, Thiên địch, Bẫy côn trùng, Xà phòng diệt côn trùng"
+    },
+    "IP056": {
+      "vietnamese_name": "Sâu đục lá khoai lang",
+      "scientific_name": "Ephemeroptera sp.",
+      "danger_level": "Thấp",
+      "affected_crops": "Cà chua, Sắn, Bắp cải",
+      "habitat": "Đất",
+      "prevention": "Vệ sinh đồng ruộng, Quản lý nước hợp lý, Sử dụng bẫy pheromone",
+      "treatment": "Xà phòng diệt côn trùng, Kết hợp nhiều biện pháp, Phun thuốc khi cần thiết, Dầu neem"
+    },
+    "IP057": {
+      "vietnamese_name": "Sâu đục thân sắn",
+      "scientific_name": "Thysanoptera sp.",
+      "danger_level": "Rất cao",
+      "affected_crops": "Sắn",
+      "habitat": "Quả",
+      "prevention": "Sử dụng thiên địch, Vệ sinh đồng ruộng",
+      "treatment": "Kết hợp nhiều biện pháp, Xử lý hạt giống, Dầu neem"
+    },
+    "IP058": {
+      "vietnamese_name": "Sâu đục lá sắn",
+      "scientific_name": "Orthoptera sp.",
+      "danger_level": "Cao",
+      "affected_crops": "Ngô",
+      "habitat": "Cỏ dại",
+      "prevention": "Vệ sinh đồng ruộng, Quản lý nước hợp lý",
+      "treatment": "Bẫy côn trùng, Xà phòng diệt côn trùng, Sử dụng thuốc chuyên dụng"
+    },
+    "IP059": {
+      "vietnamese_name": "Sâu đục củ sắn",
+      "scientific_name": "Hymenoptera sp.",
+      "danger_level": "Rất cao",
+      "affected_crops": "Đậu",
+      "habitat": "Quả",
+      "prevention": "Trồng xen canh, Kiểm tra thường xuyên",
+      "treatment": "Thuốc trừ sâu hóa học, Xà phòng diệt côn trùng, Phun thuốc khi cần thiết"
+    },
+    "IP060": {
+      "vietnamese_name": "Sâu đục thân đậu tương",
+      "scientific_name": "Psocoptera sp.",
+      "danger_level": "Rất cao",
+      "affected_crops": "Cải bẹ, Ngô, Sắn",
+      "habitat": "Cỏ dại",
+      "prevention": "Sử dụng thiên địch, Bón phân cân đối, Tưới nước đúng cách",
+      "treatment": "Bẫy côn trùng, Phun thuốc khi cần thiết"
+    },
+    "IP061": {
+      "vietnamese_name": "Sâu đục thân hoa hồng",
+      "scientific_name": "Diptera sp.",
+      "danger_level": "Thấp",
+      "affected_crops": "Ớt, Chanh",
+      "habitat": "Nước",
+      "prevention": "Vệ sinh đồng ruộng, Sử dụng thiên địch",
+      "treatment": "Sử dụng thuốc chuyên dụng, Xử lý hạt giống, Kết hợp nhiều biện pháp"
+    },
+    "IP062": {
+      "vietnamese_name": "Sâu đục lá hoa hồng",
+      "scientific_name": "Ephemeroptera sp.",
+      "danger_level": "Cao",
+      "affected_crops": "Khoai tây, Cải bẹ",
+      "habitat": "Lá cây",
+      "prevention": "Kiểm tra thường xuyên, Quản lý nước hợp lý",
+      "treatment": "Kết hợp nhiều biện pháp, Sử dụng thuốc chuyên dụng, Phun thuốc định kỳ, Thuốc trừ sâu sinh học"
+    },
+    "IP063": {
+      "vietnamese_name": "Sâu đục thân hoa lan",
+      "scientific_name": "Plecoptera sp.",
+      "danger_level": "Thấp",
+      "affected_crops": "Lạc, Ớt, Đậu",
+      "habitat": "Lá khô",
+      "prevention": "Kiểm tra thường xuyên, Tưới nước đúng cách, Sử dụng thiên địch, Sử dụng bẫy pheromone",
+      "treatment": "Xử lý hạt giống, Phun thuốc khi cần thiết, Kết hợp nhiều biện pháp"
+    },
+    "IP064": {
+      "vietnamese_name": "Sâu đục lá hoa lan",
+      "scientific_name": "Phthiraptera sp.",
+      "danger_level": "Thấp",
+      "affected_crops": "Dưa",
+      "habitat": "Rễ cây",
+      "prevention": "Sử dụng thiên địch, Luân canh cây trồng, Cắt tỉa cành, Trồng xen canh",
+      "treatment": "Thuốc trừ sâu hóa học, Sử dụng thuốc chuyên dụng, Xà phòng diệt côn trùng"
+    },
+    "IP065": {
+      "vietnamese_name": "Sâu đục thân cây cảnh",
+      "scientific_name": "Ephemeroptera sp.",
+      "danger_level": "Thấp",
+      "affected_crops": "Khoai tây",
+      "habitat": "Phân động vật",
+      "prevention": "Trồng xen canh, Bón phân cân đối",
+      "treatment": "Sử dụng thuốc chuyên dụng, Thuốc trừ sâu hóa học"
+    },
+    "IP066": {
+      "vietnamese_name": "Sâu đục lá cây cảnh",
+      "scientific_name": "Phthiraptera sp.",
+      "danger_level": "Cao",
+      "affected_crops": "Bí, Bưởi, Xoài",
+      "habitat": "Cây chết",
+      "prevention": "Cắt tỉa cành, Kiểm tra thường xuyên, Vệ sinh đồng ruộng",
+      "treatment": "Thuốc trừ sâu sinh học, Xà phòng diệt côn trùng, Phun thuốc khi cần thiết, Sử dụng thuốc chuyên dụng"
+    },
+    "IP067": {
+      "vietnamese_name": "Sâu đục rễ cây cảnh",
+      "scientific_name": "Mecoptera sp.",
+      "danger_level": "Thấp",
+      "affected_crops": "Mít",
+      "habitat": "Cây chết",
+      "prevention": "Trồng xen canh, Kiểm tra thường xuyên, Sử dụng thiên địch, Quản lý nước hợp lý",
+      "treatment": "Dầu neem, Phun thuốc định kỳ, Kết hợp nhiều biện pháp, Xà phòng diệt côn trùng"
+    },
+    "IP068": {
+      "vietnamese_name": "Sâu đục thân bonsai",
+      "scientific_name": "Phthiraptera sp.",
+      "danger_level": "Rất cao",
+      "affected_crops": "Cà chua, Khoai tây",
+      "habitat": "Cây chết",
+      "prevention": "Trồng xen canh, Loại bỏ cỏ dại, Bón phân cân đối",
+      "treatment": "Thuốc trừ sâu sinh học, Phun thuốc khi cần thiết"
+    },
+    "IP069": {
+      "vietnamese_name": "Sâu đục lá bonsai",
+      "scientific_name": "Mantodea sp.",
+      "danger_level": "Thấp",
+      "affected_crops": "Ớt, Ngô",
+      "habitat": "Cây chết",
+      "prevention": "Trồng xen canh, Loại bỏ cỏ dại",
+      "treatment": "Thiên địch, Phun thuốc khi cần thiết, Dầu neem"
+    },
+    "IP070": {
+      "vietnamese_name": "Sâu đục rễ bonsai",
+      "scientific_name": "Orthoptera sp.",
+      "danger_level": "Trung bình",
+      "affected_crops": "Cà chua",
+      "habitat": "Đất",
+      "prevention": "Trồng xen canh, Kiểm tra thường xuyên, Sử dụng bẫy pheromone",
+      "treatment": "Kết hợp nhiều biện pháp, Thuốc trừ sâu hóa học, Bẫy côn trùng, Xử lý hạt giống"
+    },
+    "IP071": {
+      "vietnamese_name": "Sâu đục thân cây rừng",
+      "scientific_name": "Lepidoptera sp.",
+      "danger_level": "Rất cao",
+      "affected_crops": "Chôm chôm",
+      "habitat": "Phân động vật",
+      "prevention": "Luân canh cây trồng, Sử dụng giống kháng",
+      "treatment": "Dầu neem, Bẫy côn trùng, Xà phòng diệt côn trùng, Phun thuốc định kỳ"
+    },
+    "IP072": {
+      "vietnamese_name": "Sâu đục lá cây rừng",
+      "scientific_name": "Siphonaptera sp.",
+      "danger_level": "Thấp",
+      "affected_crops": "Ớt",
+      "habitat": "Quả",
+      "prevention": "Tưới nước đúng cách, Trồng xen canh, Sử dụng bẫy pheromone, Cắt tỉa cành",
+      "treatment": "Thuốc trừ sâu sinh học, Thiên địch"
+    },
+    "IP073": {
+      "vietnamese_name": "Sâu đục rễ cây rừng",
+      "scientific_name": "Blattodea sp.",
+      "danger_level": "Thấp",
+      "affected_crops": "Mía",
+      "habitat": "Không khí",
+      "prevention": "Cắt tỉa cành, Trồng xen canh",
+      "treatment": "Sử dụng thuốc chuyên dụng, Phun thuốc định kỳ, Thiên địch, Xử lý hạt giống"
+    },
+    "IP074": {
+      "vietnamese_name": "Sâu đục vỏ cây rừng",
+      "scientific_name": "Diptera sp.",
+      "danger_level": "Rất cao",
+      "affected_crops": "Cam",
+      "habitat": "Quả",
+      "prevention": "Sử dụng bẫy pheromone, Trồng xen canh",
+      "treatment": "Dầu neem, Thuốc trừ sâu hóa học, Bẫy côn trùng, Thuốc trừ sâu sinh học"
+    },
+    "IP075": {
+      "vietnamese_name": "Sâu đục gỗ cây rừng",
+      "scientific_name": "Coleoptera sp.",
+      "danger_level": "Thấp",
+      "affected_crops": "Mía, Khoai lang",
+      "habitat": "Đất",
+      "prevention": "Vệ sinh đồng ruộng, Quản lý nước hợp lý",
+      "treatment": "Thiên địch, Dầu neem, Thuốc trừ sâu sinh học"
+    },
+    "IP076": {
+      "vietnamese_name": "Sâu đục thân cây gỗ",
+      "scientific_name": "Orthoptera sp.",
+      "danger_level": "Rất cao",
+      "affected_crops": "Đậu, Sắn",
+      "habitat": "Cỏ dại",
+      "prevention": "Kiểm tra thường xuyên, Bón phân cân đối, Sử dụng bẫy pheromone, Sử dụng giống kháng",
+      "treatment": "Phun thuốc định kỳ, Kết hợp nhiều biện pháp, Thuốc trừ sâu hóa học, Sử dụng thuốc chuyên dụng"
+    },
+    "IP077": {
+      "vietnamese_name": "Sâu đục lá cây gỗ",
+      "scientific_name": "Siphonaptera sp.",
+      "danger_level": "Trung bình",
+      "affected_crops": "Nhãn, Chanh, Cải bẹ",
+      "habitat": "Lá khô",
+      "prevention": "Sử dụng bẫy pheromone, Vệ sinh đồng ruộng, Quản lý nước hợp lý",
+      "treatment": "Dầu neem, Bẫy côn trùng"
+    },
+    "IP078": {
+      "vietnamese_name": "Sâu đục rễ cây gỗ",
+      "scientific_name": "Ephemeroptera sp.",
+      "danger_level": "Thấp",
+      "affected_crops": "Mía, Bưởi, Cam",
+      "habitat": "Không khí",
+      "prevention": "Sử dụng giống kháng, Cắt tỉa cành",
+      "treatment": "Dầu neem, Phun thuốc định kỳ, Thiên địch"
+    },
+    "IP079": {
+      "vietnamese_name": "Sâu đục vỏ cây gỗ",
+      "scientific_name": "Mecoptera sp.",
+      "danger_level": "Cao",
+      "affected_crops": "Cà chua, Cà phê",
+      "habitat": "Lá khô",
+      "prevention": "Bón phân cân đối, Tưới nước đúng cách",
+      "treatment": "Dầu neem, Xà phòng diệt côn trùng"
+    },
+    "IP080": {
+      "vietnamese_name": "Sâu đục gỗ cây gỗ",
+      "scientific_name": "Neuroptera sp.",
+      "danger_level": "Thấp",
+      "affected_crops": "Chanh, Ổi",
+      "habitat": "Lá cây",
+      "prevention": "Loại bỏ cỏ dại, Bón phân cân đối, Sử dụng giống kháng, Luân canh cây trồng",
+      "treatment": "Xử lý hạt giống, Thuốc trừ sâu hóa học"
+    },
+    "IP081": {
+      "vietnamese_name": "Sâu đục thân cây thuốc",
+      "scientific_name": "Blattodea sp.",
+      "danger_level": "Rất cao",
+      "affected_crops": "Mít, Cải bẹ",
+      "habitat": "Gỗ",
+      "prevention": "Loại bỏ cỏ dại, Sử dụng giống kháng",
+      "treatment": "Xử lý hạt giống, Dầu neem, Thuốc trừ sâu sinh học"
+    },
+    "IP082": {
+      "vietnamese_name": "Sâu đục lá cây thuốc",
+      "scientific_name": "Odonata sp.",
+      "danger_level": "Rất cao",
+      "affected_crops": "Cao su",
+      "habitat": "Lá khô",
+      "prevention": "Luân canh cây trồng, Trồng xen canh, Tưới nước đúng cách, Quản lý nước hợp lý",
+      "treatment": "Kết hợp nhiều biện pháp, Thiên địch"
+    },
+    "IP083": {
+      "vietnamese_name": "Sâu đục rễ cây thuốc",
+      "scientific_name": "Odonata sp.",
+      "danger_level": "Cao",
+      "affected_crops": "Ớt, Sắn",
+      "habitat": "Lá khô",
+      "prevention": "Sử dụng bẫy pheromone, Tưới nước đúng cách, Trồng xen canh, Cắt tỉa cành",
+      "treatment": "Xà phòng diệt côn trùng, Xử lý hạt giống, Thuốc trừ sâu hóa học"
+    },
+    "IP084": {
+      "vietnamese_name": "Sâu đục quả cây thuốc",
+      "scientific_name": "Dermaptera sp.",
+      "danger_level": "Trung bình",
+      "affected_crops": "Cam",
+      "habitat": "Cây chết",
+      "prevention": "Bón phân cân đối, Loại bỏ cỏ dại",
+      "treatment": "Sử dụng thuốc chuyên dụng, Thuốc trừ sâu sinh học, Thuốc trừ sâu hóa học"
+    },
+    "IP085": {
+      "vietnamese_name": "Sâu đục hoa cây thuốc",
+      "scientific_name": "Dermaptera sp.",
+      "danger_level": "Thấp",
+      "affected_crops": "Ngô, Cà chua",
+      "habitat": "Quả",
+      "prevention": "Kiểm tra thường xuyên, Cắt tỉa cành, Vệ sinh đồng ruộng, Quản lý nước hợp lý",
+      "treatment": "Sử dụng thuốc chuyên dụng, Dầu neem, Kết hợp nhiều biện pháp, Thuốc trừ sâu hóa học"
+    },
+    "IP086": {
+      "vietnamese_name": "Sâu đục thân cây dược liệu",
+      "scientific_name": "Hymenoptera sp.",
+      "danger_level": "Cao",
+      "affected_crops": "Mít",
+      "habitat": "Vỏ cây",
+      "prevention": "Cắt tỉa cành, Kiểm tra thường xuyên, Tưới nước đúng cách, Sử dụng thiên địch",
+      "treatment": "Dầu neem, Phun thuốc khi cần thiết, Thuốc trừ sâu sinh học"
+    },
+    "IP087": {
+      "vietnamese_name": "Sâu đục lá cây dược liệu",
+      "scientific_name": "Thysanoptera sp.",
+      "danger_level": "Thấp",
+      "affected_crops": "Chanh",
+      "habitat": "Lá khô",
+      "prevention": "Cắt tỉa cành, Sử dụng thiên địch, Trồng xen canh, Sử dụng bẫy pheromone",
+      "treatment": "Kết hợp nhiều biện pháp, Phun thuốc định kỳ, Thiên địch"
+    },
+    "IP088": {
+      "vietnamese_name": "Sâu đục rễ cây dược liệu",
+      "scientific_name": "Hemiptera sp.",
+      "danger_level": "Thấp",
+      "affected_crops": "Xoài, Bông, Vải",
+      "habitat": "Đất",
+      "prevention": "Sử dụng bẫy pheromone, Kiểm tra thường xuyên, Loại bỏ cỏ dại",
+      "treatment": "Phun thuốc định kỳ, Thuốc trừ sâu hóa học"
+    },
+    "IP089": {
+      "vietnamese_name": "Sâu đục quả cây dược liệu",
+      "scientific_name": "Neuroptera sp.",
+      "danger_level": "Rất cao",
+      "affected_crops": "Xoài, Chanh",
+      "habitat": "Cây chết",
+      "prevention": "Sử dụng bẫy pheromone, Quản lý nước hợp lý, Luân canh cây trồng",
+      "treatment": "Sử dụng thuốc chuyên dụng, Xà phòng diệt côn trùng, Kết hợp nhiều biện pháp"
+    },
+    "IP090": {
+      "vietnamese_name": "Sâu đục hoa cây dược liệu",
+      "scientific_name": "Plecoptera sp.",
+      "danger_level": "Trung bình",
+      "affected_crops": "Đậu tương, Dừa",
+      "habitat": "Lá khô",
+      "prevention": "Tưới nước đúng cách, Quản lý nước hợp lý, Cắt tỉa cành, Kiểm tra thường xuyên",
+      "treatment": "Kết hợp nhiều biện pháp, Phun thuốc định kỳ, Xà phòng diệt côn trùng, Phun thuốc khi cần thiết"
+    },
+    "IP091": {
+      "vietnamese_name": "Sâu đục thân cây gia vị",
+      "scientific_name": "Plecoptera sp.",
+      "danger_level": "Cao",
+      "affected_crops": "Đậu, Ổi",
+      "habitat": "Lá khô",
+      "prevention": "Loại bỏ cỏ dại, Trồng xen canh, Vệ sinh đồng ruộng, Kiểm tra thường xuyên",
+      "treatment": "Kết hợp nhiều biện pháp, Sử dụng thuốc chuyên dụng, Thuốc trừ sâu hóa học, Xử lý hạt giống"
+    },
+    "IP092": {
+      "vietnamese_name": "Sâu đục lá cây gia vị",
+      "scientific_name": "Plecoptera sp.",
+      "danger_level": "Thấp",
+      "affected_crops": "Bông, Lúa, Bưởi",
+      "habitat": "Vỏ cây",
+      "prevention": "Cắt tỉa cành, Loại bỏ cỏ dại",
+      "treatment": "Phun thuốc định kỳ, Thuốc trừ sâu hóa học"
+    },
+    "IP093": {
+      "vietnamese_name": "Sâu đục rễ cây gia vị",
+      "scientific_name": "Blattodea sp.",
+      "danger_level": "Thấp",
+      "affected_crops": "Xoài, Lạc, Mít",
+      "habitat": "Quả",
+      "prevention": "Trồng xen canh, Loại bỏ cỏ dại",
+      "treatment": "Phun thuốc khi cần thiết, Xử lý hạt giống, Phun thuốc định kỳ, Thiên địch"
+    },
+    "IP094": {
+      "vietnamese_name": "Sâu đục quả cây gia vị",
+      "scientific_name": "Coleoptera sp.",
+      "danger_level": "Cao",
+      "affected_crops": "Lúa, Dưa, Chôm chôm",
+      "habitat": "Gỗ",
+      "prevention": "Luân canh cây trồng, Bón phân cân đối",
+      "treatment": "Xử lý hạt giống, Thuốc trừ sâu sinh học"
+    },
+    "IP095": {
+      "vietnamese_name": "Sâu đục hoa cây gia vị",
+      "scientific_name": "Lepidoptera sp.",
+      "danger_level": "Trung bình",
+      "affected_crops": "Cà phê",
+      "habitat": "Lá cây",
+      "prevention": "Sử dụng thiên địch, Loại bỏ cỏ dại, Quản lý nước hợp lý, Luân canh cây trồng",
+      "treatment": "Phun thuốc khi cần thiết, Thuốc trừ sâu hóa học, Thuốc trừ sâu sinh học, Bẫy côn trùng"
+    },
+    "IP096": {
+      "vietnamese_name": "Sâu đục thân cây hương liệu",
+      "scientific_name": "Diptera sp.",
+      "danger_level": "Rất cao",
+      "affected_crops": "Dừa",
+      "habitat": "Thức ăn thừa",
+      "prevention": "Bón phân cân đối, Sử dụng thiên địch",
+      "treatment": "Phun thuốc định kỳ, Bẫy côn trùng"
+    },
+    "IP097": {
+      "vietnamese_name": "Sâu đục lá cây hương liệu",
+      "scientific_name": "Mantodea sp.",
+      "danger_level": "Cao",
+      "affected_crops": "Bưởi, Xoài, Vải",
+      "habitat": "Vỏ cây",
+      "prevention": "Sử dụng thiên địch, Tưới nước đúng cách, Luân canh cây trồng",
+      "treatment": "Phun thuốc định kỳ, Xử lý hạt giống, Phun thuốc khi cần thiết"
+    },
+    "IP098": {
+      "vietnamese_name": "Sâu đục rễ cây hương liệu",
+      "scientific_name": "Orthoptera sp.",
+      "danger_level": "Rất cao",
+      "affected_crops": "Nhãn, Đậu tương, Cam",
+      "habitat": "Thức ăn thừa",
+      "prevention": "Quản lý nước hợp lý, Loại bỏ cỏ dại, Kiểm tra thường xuyên",
+      "treatment": "Xà phòng diệt côn trùng, Sử dụng thuốc chuyên dụng"
+    },
+    "IP099": {
+      "vietnamese_name": "Sâu đục quả cây hương liệu",
+      "scientific_name": "Lepidoptera sp.",
+      "danger_level": "Rất cao",
+      "affected_crops": "Mía",
+      "habitat": "Quả",
+      "prevention": "Bón phân cân đối, Tưới nước đúng cách",
+      "treatment": "Xà phòng diệt côn trùng, Bẫy côn trùng, Thuốc trừ sâu hóa học"
+    },
+    "IP100": {
+      "vietnamese_name": "Sâu đục hoa cây hương liệu",
+      "scientific_name": "Dermaptera sp.",
+      "danger_level": "Cao",
+      "affected_crops": "Lúa, Đậu",
+      "habitat": "Lá khô",
+      "prevention": "Loại bỏ cỏ dại, Trồng xen canh, Kiểm tra thường xuyên, Quản lý nước hợp lý",
+      "treatment": "Sử dụng thuốc chuyên dụng, Thuốc trừ sâu sinh học"
+    },
+    "IP101": {
+      "vietnamese_name": "Sâu đục thân cây dầu",
+      "scientific_name": "Orthoptera sp.",
+      "danger_level": "Trung bình",
+      "affected_crops": "Chôm chôm, Cà chua, Chanh",
+      "habitat": "Nước",
+      "prevention": "Sử dụng giống kháng, Bón phân cân đối, Loại bỏ cỏ dại, Trồng xen canh",
+      "treatment": "Phun thuốc khi cần thiết, Phun thuốc định kỳ"
+    },
+    "IP102": {
+      "vietnamese_name": "Sâu đục lá cây dầu",
+      "scientific_name": "Siphonaptera sp.",
+      "danger_level": "Rất cao",
+      "affected_crops": "Dưa",
+      "habitat": "Lá cây",
+      "prevention": "Vệ sinh đồng ruộng, Sử dụng giống kháng, Sử dụng thiên địch",
+      "treatment": "Xà phòng diệt côn trùng, Kết hợp nhiều biện pháp"
+    }
+  }
+}

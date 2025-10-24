@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['undefined']
+
+roboflow:
+  workspace: nng-nghip-xanh
+  project: ip102-insect-pest-recognition-puath
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/nng-nghip-xanh/ip102-insect-pest-recognition-puath/dataset/1

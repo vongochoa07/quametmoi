@@ -1,0 +1,41 @@
+2025-10-23 12:50:27,663 - __main__ - INFO - Loading model: yolov8n.pt
+2025-10-23 12:50:40,821 - __main__ - ERROR - Lỗi khi xử lý ảnh: 'NoneType' object has no attribute 'startswith'
+2025-10-23 12:55:48,577 - monitoring - INFO - Prediction: IP001, confidence: 0.546, processing_time: 0.090s, image_size: 17609
+2025-10-23 13:36:21,049 - __main__ - INFO - Loading model: yolov8n.pt
+2025-10-23 13:45:32,123 - monitoring - INFO - Prediction: IP018, confidence: 0.602, processing_time: 0.096s, image_size: 17989
+2025-10-23 13:45:45,454 - monitoring - INFO - Prediction: IP015, confidence: 0.438, processing_time: 0.065s, image_size: 248961
+2025-10-23 13:45:53,683 - monitoring - INFO - Prediction: IP015, confidence: 0.438, processing_time: 0.065s, image_size: 248961
+2025-10-23 13:46:05,413 - monitoring - INFO - Prediction: IP015, confidence: 0.526, processing_time: 0.095s, image_size: 10208
+2025-10-23 13:47:54,004 - monitoring - INFO - Prediction: IP006, confidence: 0.868, processing_time: 0.133s, image_size: 137419
+2025-10-23 13:47:54,005 - monitoring - INFO - Prediction: IP001, confidence: 0.864, processing_time: 0.133s, image_size: 137419
+2025-10-23 13:47:54,005 - monitoring - INFO - Prediction: IP001, confidence: 0.833, processing_time: 0.133s, image_size: 137419
+2025-10-23 13:47:54,005 - monitoring - INFO - Prediction: IP001, confidence: 0.811, processing_time: 0.133s, image_size: 137419
+2025-10-23 13:47:54,005 - monitoring - INFO - Prediction: IP001, confidence: 0.334, processing_time: 0.133s, image_size: 137419
+2025-10-23 13:50:10,912 - __main__ - INFO - Loading model: yolov8n.pt
+2025-10-23 13:50:26,883 - monitoring - INFO - Prediction: IP001, confidence: 0.884, processing_time: 0.107s, image_size: 137419
+2025-10-23 13:50:26,885 - monitoring - INFO - Prediction: IP001, confidence: 0.880, processing_time: 0.107s, image_size: 137419
+2025-10-23 13:50:26,885 - monitoring - INFO - Prediction: IP006, confidence: 0.873, processing_time: 0.107s, image_size: 137419
+2025-10-23 13:50:26,885 - monitoring - INFO - Prediction: IP001, confidence: 0.872, processing_time: 0.107s, image_size: 137419
+2025-10-23 13:50:26,885 - monitoring - INFO - Prediction: IP001, confidence: 0.534, processing_time: 0.107s, image_size: 137419
+2025-10-23 13:51:59,818 - monitoring - INFO - Prediction: IP010, confidence: 0.728, processing_time: 0.006s, image_size: 137419
+2025-10-23 13:52:24,904 - monitoring - INFO - Prediction: IP011, confidence: 0.808, processing_time: 0.011s, image_size: 32429
+2025-10-23 13:52:41,267 - monitoring - INFO - Prediction: IP012, confidence: 0.832, processing_time: 0.012s, image_size: 12964
+2025-10-23 13:52:41,269 - monitoring - INFO - Prediction: IP016, confidence: 0.787, processing_time: 0.012s, image_size: 12964
+2025-10-23 13:52:41,269 - monitoring - INFO - Prediction: IP002, confidence: 0.732, processing_time: 0.012s, image_size: 12964
+2025-10-23 13:54:43,355 - monitoring - INFO - Prediction: IP016, confidence: 0.860, processing_time: 0.009s, image_size: 32429
+2025-10-23 13:57:49,212 - monitoring - INFO - Prediction: IP011, confidence: 0.817, processing_time: 0.012s, image_size: 32100
+2025-10-23 13:58:02,765 - monitoring - INFO - Prediction: IP004, confidence: 0.775, processing_time: 0.012s, image_size: 32100
+2025-10-23 13:58:11,990 - monitoring - INFO - Prediction: IP014, confidence: 0.849, processing_time: 0.012s, image_size: 12072
+2025-10-23 13:58:11,991 - monitoring - INFO - Prediction: IP017, confidence: 0.816, processing_time: 0.012s, image_size: 12072
+2025-10-23 13:58:11,991 - monitoring - INFO - Prediction: IP005, confidence: 0.786, processing_time: 0.012s, image_size: 12072
+2025-10-23 14:16:31,971 - monitoring - INFO - Prediction: IP012, confidence: 0.816, processing_time: 0.013s, image_size: 11874
+2025-10-23 14:16:31,974 - monitoring - INFO - Prediction: IP002, confidence: 0.708, processing_time: 0.013s, image_size: 11874
+2025-10-23 14:16:31,974 - monitoring - INFO - Prediction: IP019, confidence: 0.691, processing_time: 0.013s, image_size: 11874
+2025-10-23 14:21:57,571 - monitoring - INFO - Prediction: IP016, confidence: 0.788, processing_time: 0.013s, image_size: 17989
+2025-10-23 14:21:57,574 - monitoring - INFO - Prediction: IP003, confidence: 0.721, processing_time: 0.013s, image_size: 17989
+2025-10-23 14:22:14,449 - monitoring - INFO - Prediction: IP013, confidence: 0.817, processing_time: 0.011s, image_size: 11974
+2025-10-23 14:22:14,451 - monitoring - INFO - Prediction: IP015, confidence: 0.776, processing_time: 0.011s, image_size: 11974
+2025-10-23 14:24:46,042 - monitoring - INFO - Prediction: IP003, confidence: 0.621, processing_time: 0.014s, image_size: 12358
+2025-10-23 14:24:46,043 - monitoring - INFO - Prediction: IP009, confidence: 0.605, processing_time: 0.014s, image_size: 12358
+2025-10-23 14:25:05,713 - monitoring - INFO - Prediction: IP014, confidence: 0.830, processing_time: 0.012s, image_size: 10013
+2025-10-23 14:25:05,714 - monitoring - INFO - Prediction: IP016, confidence: 0.755, processing_time: 0.012s, image_size: 10013
